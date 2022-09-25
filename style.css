@@ -23,8 +23,10 @@ img{
     transition: width 2s, height 4s;
     width: 200px;
     align-self: center;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding: 15px 50px;
+    background-color: beige;
+    -webkit-transition: width 0.4s ease-in-out;
+   transition: width 0.4s ease-out;
 }
 .search:hover {
     width: 200px;
@@ -34,8 +36,17 @@ img{
 
 .header-part2{
     display: flex;
-    align-items: center;
-    padding-left:500px;
+    /* justify-content: flex-end; */
+    padding-left:778px;
+}
+sup{
+    background-color: #F70858;
+    color: beige;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 10px;
 }
 .profile{
     border-radius: 50%;
@@ -76,14 +87,19 @@ img{
 }
 .hotel1,.hotel2,.hotel3{
     height: 210px;
-    width: 375px;
-    /* justify-content:space-around; */
-    /* margin-left:400px; */
+    width: 380px; 
+}
+.part2-images{
+    display: flex;
+    flex-direction: column;
+}
+.images-part2{
+    display: flex;
 }
 .part-2-text{
     display: flex;
     padding: 1px 0;
-    border: 10px solid transparent;
+    /* border: 1px solid transparent; */
 }
 .part-2-text-right{
     padding-left:200px;
@@ -97,7 +113,7 @@ img{
 .a{
     opacity: 0.5;
     font-size: 20px; 
-    
+    padding-left: 10px;
 }
 .y,.z{
     /* border: 1px; */
@@ -106,7 +122,7 @@ img{
     color:whitesmoke;
 }
 .x{
-    border: 1px;
+    
     padding: 2px;
     color:#F70858;
     text-decoration: underline;
@@ -175,7 +191,7 @@ img{
 
 .part3-img{
     border-radius: 50%;
-    padding-left:-5px;
+    
 }
 .part3-section1,.part3-section2{
     /* background-color: aquamarine; */
@@ -207,11 +223,12 @@ img{
 .subsection1-1{
     display: flex;
     
+    
 }
 .subsection1-1-1,.subsection1-1-2,.subsection1-1-3{
     padding:10px 10px;
 }
-alt[user5]{
+img[alt="user5"],img[alt="user6"]{
     border-radius: 50%;
 }
 .subsection1-1-3{
@@ -229,6 +246,8 @@ div.part3-section3>input{
     background-color: #F70858;
     border-radius: 75%;
     color:whitesmoke;
+    position: absolute;
+    right: 30px;
 }
 .part3-section3{
     background-color: beige;
